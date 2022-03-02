@@ -8,3 +8,7 @@ RUN curl -o local-security-checker -L https://github.com/fabpot/local-php-securi
 RUN chmod +x local-security-checker
 
 RUN rm -rf /var/cache/apk/*
+
+RUN mkdir workdir
+
+WORKDIR workdir
