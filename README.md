@@ -13,5 +13,5 @@ Check Composer packages:
   stage: testing
   image: ghcr.io/arne1303/php-security-checker-docker:main
   script:
-    - ././local-security-checker
+    - local-security-checker
 ```
