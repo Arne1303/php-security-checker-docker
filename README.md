@@ -2,6 +2,8 @@
 
 This Docker image packs the [php security checker](https://github.com/fabpot/local-php-security-checker) into a standalone docker image which can be used in pipelines to check for known security issues in you're composer dependencies.
 
+The Security checker is executable from everywhere in the image by calling "local-security-checker"
+
 
 ### Gitlab-Ci
 
