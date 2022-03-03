@@ -12,6 +12,7 @@ Example setup for the gitlab-ci
 Check Composer packages:
   stage: testing
   image: ghcr.io/arne1303/php-security-checker-docker:main
+  when: always
   script:
     - local-security-checker
 ```
